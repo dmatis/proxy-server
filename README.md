@@ -21,12 +21,12 @@
 *PORT* is the desired port to run the server on<br />
 *banned.txt* is the file containing list of banned websites<br />
 
-**Once the server is running, open another terminal and run:**
+**Once the server is running, open another terminal and run:**<br />
 *nc localhost PORT < request.txt*
 
-*request.txt* contains the URL request 
+where *request.txt* contains the URL request
 
-OR
+**You should now see the content of the website displayed in the client terminal, or an error code indicating it is a blacklisted site**
 
-configure the proxy settings in your browser
+Once working, you can configure your browser's proxy settings to see the results in the browser window
 
